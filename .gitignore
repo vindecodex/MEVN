@@ -1,1 +1,3 @@
 node_modules
+# client folder is just for development, once we build client it will be build inside public folder
+# .env must always ignore .env it contains confedintial data but for this example will include this
