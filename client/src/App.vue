@@ -1,17 +1,12 @@
 <template>
 	<div id="app">
-		<LoginForm />
+		<router-view></router-view>
 	</div>
 </template>
 
 <script>
-import LoginForm from './components/LoginForm.vue'
-
 export default {
-  name: 'app',
-  components: {
-    LoginForm
-  }
+  name: 'app'
 }
 </script>
 
@@ -67,7 +62,7 @@ input {
 	border-radius: 8px;
 }
 
-input[type="submit"] {
+a.submit,input[type="submit"] {
 	display: block;
 	padding: 10px 5px;
 	margin: 3px 0;
